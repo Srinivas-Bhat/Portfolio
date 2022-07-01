@@ -15,6 +15,7 @@ import {
   SiRedux,
   SiExpress,
   SiBootstrap,
+  SiChakraui,
 } from "react-icons/si";
 
 function Techstack() {
@@ -36,7 +37,7 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiChakraui />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />

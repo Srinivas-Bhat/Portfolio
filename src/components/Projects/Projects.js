@@ -26,7 +26,8 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Clone of ASOS"
-              description="An E-commerce website built with React.js, Chakra-UI, and Redux. Have built the userflow of the website form sign up to placing the orders with cart updation feature and data managed with json server."
+              description="Asos is an e-commerce website. Have built the userflow of the website form sign up to placing the orders with cart updation feature and data managed with json server."
+              stacks="Tech Stack : REACT, REDUX, JAVASCRIPT, CHAKRA-UI"
               ghLink="https://github.com/aakarsh604/Asos-Clone"
               demoLink="https://famous-yeot-9daac6.netlify.app/"
             />
@@ -37,7 +38,8 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Weather App"
-              description="Weather App built with React.js and Tailwind Css which uses Rest API to show the weather of current location or any place with city name. Has feature to toggle between different temperature settings. Shows the weather forecast for next 5 days and next 5 hours as well."
+              description="This project is about building a web application to show a weather forecast using weather API. It shows city and current location based data with next 5 hours and 5 days forecast."
+              stacks="Tech Stack : REACT, JAVASCRIPT, TAILWIND-CSS, REST-API"
               ghLink="https://github.com/aakarsh604/React_WeatherApp"
               demoLink="https://incandescent-toffee-012bd4.netlify.app/"
             />
@@ -48,7 +50,8 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Clone of Gearbest"
-              description="An E-commerce website built with HTML, CSS and Javascript. Have built the userflow of the website form sign up to placing the orders with, form and captcha validation, cart quantity updation feature and data managed with json server and local storage."
+              description="A famous e-commerce website. Have built the userflow of the website form sign up to placing the orders with, form and captcha validation, cart quantity updation feature and data managed with json server and local storage."
+              stacks="Tech Stack : HTML, CSS, JAVASCRIPT"
               ghLink="https://github.com/aakarsh604/Gearbest-Clone"
               demoLink="https://silly-queijadas-e172c2.netlify.app/"              
             />
@@ -60,6 +63,7 @@ function Projects() {
               isBlog={false}
               title="Movie App"
               description="Built a Movie Search app with help of HTML, CSS and Vanilla Javascript. There is also sign up and login functionality. This uses TMDB API to make search requests and display on the page. It also supports debouncing feature."
+              stacks="Tech Stack : HTML, CSS, JAVASCRIPT"
               ghLink="https://github.com/aakarsh604/movieapp"
               demoLink="https://flourishing-mooncake-65c718.netlify.app/"
             />
@@ -67,26 +71,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={editor}
               isBlog={false}
-              title="Clone of Youtube"
-              description="Build a Clone of Youtube page which collects data from the Google API and supports search funcitonality and displays data in search results and also has individual video player page to play the selected video."
-              ghLink="https://github.com/aakarsh604/Youtube_clone"
-              demoLink="https://scintillating-muffin-8f55e0.netlify.app/"
+              title="Clone of CaratLane"
+              description="A famous e-commerce website. Have built the userflow of the website form sign up to placing the orders with, form and captcha validation, cart quantity updation feature and data managed with json server and local storage."
+              stacks="Tech Stack : HTML, CSS, JAVASCRIPT"
+              ghLink="https://github.com/Shubham-46/CARAT-LANE-CLONE"
+              demoLink="https://sensational-kheer-5c4a81.netlify.app/"              
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Clone of Unsplash"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
