@@ -54,27 +54,27 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Todo App"
-              description="Built a basic To-Do application with the help of React.js where you can do CRUD operation with data stored in json server."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Movie App"
+              description="Built a Movie Search app with help of HTML, CSS and Vanilla Javascript. There is also sign up and login functionality. This uses TMDB API to make search requests and display on the page. It also supports debouncing feature."
+              ghLink="https://github.com/aakarsh604/movieapp"
+              demoLink="https://flourishing-mooncake-65c718.netlify.app/"
             />
-          </Col> */}
+          </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
               title="Clone of Youtube"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              description="Build a Clone of Youtube page which collects data from the Google API and supports search funcitonality and displays data in search results and also has individual video player page to play the selected video."
+              ghLink="https://github.com/aakarsh604/Youtube_clone"
+              demoLink="https://scintillating-muffin-8f55e0.netlify.app/"
             />
-          </Col> */}
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
