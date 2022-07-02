@@ -2,7 +2,10 @@
   Portfolio Website<br/>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="main1.png" />
+</div>
+<div align="center">
+  <img alt="Demo" src="main.png" />
 </div>
 
 <br/>
