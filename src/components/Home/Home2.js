@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import photo from "../../Assets/Aakarsh2.png"
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -18,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with web developement after I attended a workshop on E-Commerce website, I took programming seriously and started learning it.
+            I am a  <i><b className="purple">Full Stack Developer </b></i>, passionate about building digital products that improve everyday experience for people.
               <br />
               <br />I am proficient in
               <i>
@@ -32,23 +33,13 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js </b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              I love to work on exciting projects that test what I've learnt, 
+              also look forward to work in a challenging environment which gives me an opportunity to prove myself & provides me with an atmosphere in which I can learn & grow.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={photo} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
