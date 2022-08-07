@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import photo from "../../Assets/Aakarsh2.png"
 import Tilt from "react-parallax-tilt";
 import {
@@ -39,7 +38,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={photo} className="img-fluid" alt="avatar" />
+              <img src={photo} className="img-fluid myphoto" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -48,6 +47,12 @@ function Home2() {
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
+            </p>
+            <p className="contact-font">
+              Email : <a className="purple mailto" href="mailto:aakarsh604@gmail.com">aakarsh604@gmail.com</a>
+            </p>
+            <p className="contact-font">
+              Mobile : <span className="purple">9739940543 </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

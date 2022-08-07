@@ -9,11 +9,11 @@ import Toolstack from "./Toolstack";
 
 function About() {
   return (
-    <Container fluid className="about-section">
+    <Container id="about" fluid className="about-section" >
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
+        <Row style={{ justifyContent: "center", margin : "-50px" }} id="skills" >
+          {/* <Col
             md={7}
             style={{
               justifyContent: "center",
@@ -24,7 +24,7 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Know Who <strong className="purple">I'M</strong>
             </h1>
-            <Aboutcard />
+           <Aboutcard />
           </Col>
           <Col
             md={5}
@@ -32,9 +32,9 @@ function About() {
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
+          </Col> */}
         </Row>
-        <h1 className="project-heading">
+        <h1 className="project-heading skills-section"  >
           Professional <strong className="purple">Skillset </strong>
         </h1>
 

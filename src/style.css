@@ -309,6 +309,14 @@ button:focus {
   font-size: 2em;
 }
 
+.myphoto{
+  border : 1px solid white;
+  border-radius: 50%;
+  background: rgba(246, 181, 255, 0.911);
+  /* box-shadow: #68187a 16px 20px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 .myAvtar {
   justify-content: center !important;
   padding-top: 4em !important;
@@ -455,6 +463,10 @@ button:focus {
   background-image: var(--section-background-color) !important;
 }
 
+.projects-sections{
+  height : 80px;
+}
+
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -542,6 +554,10 @@ button:focus {
   padding-top: 10px !important;
 }
 
+.skills-section{
+  margin-top : 150px !important;
+}
+
 /* --------- */
 /* About */
 /* --------- */
@@ -552,6 +568,14 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+}
+
+.mailto {
+  text-decoration: none;
+}
+
+.contact-font{
+  font-size : 20px;
 }
 
 .tech-icons {

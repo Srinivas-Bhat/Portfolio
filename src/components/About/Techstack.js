@@ -6,12 +6,10 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
   DiHtml5
 } from "react-icons/di";
 import {
-  SiNextdotjs,
   SiRedux,
   SiExpress,
   SiBootstrap,

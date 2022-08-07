@@ -10,10 +10,11 @@ import bitsOfCode from "../../Assets/Projects/weather.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container  fluid className="project-section">
+      <div id="project" className="projects-sections"></div>
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        <h1 className="project-heading" >
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
