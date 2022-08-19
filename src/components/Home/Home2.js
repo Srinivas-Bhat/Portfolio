@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import photo from "../../Assets/Aakarsh2.png"
+import photo from "../../Assets/srinivas.jpg"
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -49,15 +49,15 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <p className="contact-font">
-              Email : <a className="purple mailto" href="mailto:aakarsh604@gmail.com">aakarsh604@gmail.com</a>
+              Email : <a className="purple mailto" href="mailto:aakarsh604@gmail.com">srinivasbhat0105@gmail.com</a>
             </p>
             <p className="contact-font">
-              Mobile : <span className="purple">9739940543 </span>
+              Mobile : <span className="purple">8073687889 </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/aakarsh604"
+                  href="https://github.com/Srinivas-Bhat"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -67,7 +67,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/aakarsh-devadiga-416a901a5/"
+                  href="https://www.linkedin.com/in/srinivas-k-bhat-6b41aa216/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +75,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/a_aakarsh/"
                   target="_blank"
@@ -84,7 +84,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
