@@ -67,5 +67,6 @@ Give a ⭐ if you like this website!
 
 ### Deployed Link.
 
-Live Demo: [website]([https://example.com](https://srinivasbhat-portfolio.netlify.app/)){:target="_blank"}
+Live Demo: [website]([https://example.com](https://srinivasbhat-portfolio.netlify.app/)){:target="_blank"}<br/>
+[demo](https://example.com){target="_blank"} <br/>
 <a href="https://srinivasbhat-portfolio.netlify.app/" target="_blank"><strong> PortFolio Deployed Link </strong></a>
