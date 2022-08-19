@@ -2,10 +2,9 @@
   Portfolio Website<br/>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/main1.png" />
-</div>
-<div align="center">
-  <img alt="Demo" src="./Images/main2.png" />
+  
+  ![HomePage](https://user-images.githubusercontent.com/101566628/185582811-9ad8e4ef-049f-44f5-9cb0-d72739005aba.png)
+
 </div>
 
 <br/>
@@ -19,6 +18,12 @@
 ## Built With
 
 My personal portfolio which features some of my github projects as well as my resume and technical skills.<br/>
+
+<div align="center">
+  
+  ![ProjectPage](https://user-images.githubusercontent.com/101566628/185582752-7e188378-60d3-4713-bb17-1ff55841d3b5.png)
+
+</div>
 
 This project was built using these technologies.
 
