@@ -38,7 +38,7 @@ This project was built using these technologies.
 
 **📖 Multi-Page Layout**
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+**🎨 Styled with React-Bootstrap and CSS with easy-to-customize colors**
 
 **📱 Fully Responsive**
 
@@ -67,4 +67,4 @@ Give a ⭐ if you like this website!
 
 ### Deployed Link.
 
-Click Here: <a href="https://srinivasbhat-portfolio.netlify.app/" target="_blank"><strong> PortFolio Deployed Link </strong></a>
+Click Here: <a href="https://srinivas-k-bhat-portfolio.vercel.app/" target="_blank"><strong> PortFolio Deployed Link </strong></a>
